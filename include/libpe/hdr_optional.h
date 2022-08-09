@@ -181,8 +181,8 @@ typedef struct {
 typedef struct {
 	uint16_t type; // opt_type_e
 	size_t length;
-	IMAGE_OPTIONAL_HEADER_32 *_32;
-	IMAGE_OPTIONAL_HEADER_64 *_64;
+	IMAGE_OPTIONAL_HEADER_32 *h_32;
+	IMAGE_OPTIONAL_HEADER_64 *h_64;
 } IMAGE_OPTIONAL_HEADER;
 
 #pragma pack(pop)
